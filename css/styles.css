@@ -469,23 +469,27 @@ font-variant:unset;
 
 /* BECAUSE word */
 
-.becauseBLetter {
-  font-size: 30px;
-  font-weight: bolder;
-  text-transform: capitalize;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: wavy overline gray;
-  background-color:slateblue;
-  color:rgb(179, 104, 57);
+.becauseBLetter, .becauseELetter{
+  color: #fd1c1c;
 }
-.becauseELetter {
+
+
+.becauseBLetter{
+  font-size: 30px;
+  font-weight:700;
+  text-transform: capitalize;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-decoration: wavy overline gray;
+  background-color:#5aaecd;
+ /*  color: #07761f; */
+}
+  .becauseELetter {
   font-size: 50px;
   font-weight: normal;
   font-family:unset;
-  
   background-color: rgb(168, 127, 255);
-  color:rgb(229, 44, 44) ;
-}
+  /* color:rgb(229, 44, 44) ; */
+} 
 .becauseCLetter {
   font-size: 60px;
   font-weight: normal;
@@ -494,9 +498,10 @@ font-variant:unset;
   background-color: rgb(244, 244, 16);
   color:blue ;
 }
+
 .becauseALetter {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   flex-direction: row;
   background-color: #ff7f83;
@@ -504,7 +509,7 @@ font-variant:unset;
 }
 .becauseULetter {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 400;
   font-family:  Verdana;
   text-shadow: 2px 3px red;
   background-color: yellow;
@@ -512,7 +517,7 @@ font-variant:unset;
 }
 .becauseSLetter {
   font-size: 30px;
-  font-weight: bolder;
+  font-weight: 700;
   font-family: Tahoma,  Verdana, sans-serif;
   text-shadow: 3px 0px bisque;
   background-color: red;
@@ -528,9 +533,12 @@ font-variant:unset;
 }
 
 /* THEY word */
+.theyELetter, .theyYLetter{
+  color:#00ffff ;
+}
 
 .theyTLetter {
-  font-family: 'fantasy';
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
   font-weight: 500;
   text-decoration: underline red;
@@ -553,17 +561,17 @@ font-variant:unset;
   font-weight: 800;
   text-decoration: overline wavy gray;
   background-color: #42ff33;
-  color: aqua;
+  /* color: aqua; */
   
 }
 .theyYLetter {
-  font-family: 'fantasy';
+  font-family:Verdana, 'Geneva', Tahoma, sans-serif;
   font-variant: unset;
   font-weight: 600;
   font-size: 50px;
   text-decoration: line-through red;
   background-color: burlywood;
-  color:  darkblue;
+  /* color:  darkblue; */
   
 }
 
@@ -581,7 +589,7 @@ font-variant:unset;
 
 }
 .wantedALetter {
-  font-family:'fantasy';
+  font-family:'Courier New', Courier, monospace;
   font-variant:small-caps;
   font-weight: 400;
   font-size: 60px;
@@ -591,7 +599,7 @@ font-variant:unset;
   
 }
 .wantedNLetter {
-  font-family: 'fantasy';
+  font-family:'Courier New', Courier, monospace ;
   font-variant: unset;
   font-weight: 600;
   font-size: 50px;
@@ -611,7 +619,7 @@ font-variant:unset;
   
 }
 .wantedELetter {
-  font-family: 'fantasy';
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-variant:small-caps;
   font-weight: 500;
   font-size: 40px;
@@ -685,7 +693,7 @@ font-variant:unset;
   
 }
 .improveRLetter {
-  font-family: 'fantasy';
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-variant:small-caps ;
   font-weight: 700;
   font-size: 40px;
@@ -698,7 +706,7 @@ font-variant:unset;
   font-family:'Courier New', Courier, monospace ;
   font-variant:inherit ;
   font-weight:bolder;
-  font: size 63px;
+  font-size:50px;
   text-decoration: underline blanchedalmond;
   background-color: rgb(126, 132, 25);
   color:  rgb(6, 250, 27);
@@ -731,7 +739,7 @@ font-variant:unset;
   font-variant:normal;
   font-weight: 700;
   font-size: 60px;
-  text-decoration: underline wavy overline palegreen;
+  text-decoration: underline wavy  palegreen;
   background-color: rgb(71, 7, 245);
   color:  rgb(0, 139, 88);
   
@@ -741,7 +749,7 @@ font-variant:unset;
   font-size: 48px;
   font-weight: normal;
   font-variant: inherit;
-  text-shadow: 2 3 forestgreen;
+  text-shadow: 0 2 3 forestgreen;
   background-color: #4cea25;
   color: #fd1c1c;
 }
@@ -754,7 +762,7 @@ font-variant:unset;
   color: #34f2dc;
 }
 .theirILetter {
-  font-family: 'fantasy';
+  font-family:'Courier New', Courier, monospace;
   font-variant: unset;
   font-weight: 600;
   font-size: 50px;
@@ -769,7 +777,7 @@ font-variant:unset;
   font-weight: 800;
   font-size: 60px;
   text-decoration: line-through wavy darkgoldenrod;
-  text-shadow: 0 3 beige;
+  text-shadow: 0 0 3 beige;
   background-color: rgb(142, 222, 135);
   color:  rgb(82, 43, 43);
   
@@ -778,7 +786,7 @@ font-variant:unset;
 /* ROOT word */
 
 .rootRLetter {
-  font-family: 'fantasy';
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-variant:small-caps;
   font-weight: 400;
   font-size: 60px;
@@ -798,11 +806,11 @@ font-variant:unset;
   
 }
 .rootOTwoLetter {
-  font-family:'Courier New', Courier, monospace 'fantasy';
+  font-family:'Courier New', Courier, monospace;
   font-variant:small-caps;
   font-weight: 800;
   font-size: 48px;
-  text-decoration: dashed double underline lightblue;
+  text-decoration: dashed  underline lightblue;
   background-color: rgb(245, 173, 79);
   color:  rgb(0, 139, 46);
   
@@ -830,7 +838,7 @@ font-variant:unset;
   
 }
 .skillsKLetter {
-  font-family:Verdana,  Tahoma, sans-serif 'fantasy';
+  font-family:Verdana,  Tahoma, sans-serif;
   font-variant: unset;
   font-weight: 700;
   font-size: 40px;
@@ -860,7 +868,7 @@ font-variant:unset;
   
 }
 .skillsLTwoLetter {
-  font-family: 'fantasy';
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-variant: unset;
   text-transform:capitalize;
   font-weight: 600;
@@ -871,7 +879,7 @@ font-variant:unset;
   
 }
 .skillsSTwoLetter {
-  font-family:serif 'fantasy';
+  font-family:serif ;
   font-variant:normal;
   font-weight: 800;
   font-size: 40px;
